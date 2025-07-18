@@ -11,6 +11,5 @@ public class HelloWorld {
     @GetMapping("welcome/{name}")
     public String helloWorld(@PathVariable("name") String name) {
         return "Hello World " + name;
-    }
-    
+    }  
 }
