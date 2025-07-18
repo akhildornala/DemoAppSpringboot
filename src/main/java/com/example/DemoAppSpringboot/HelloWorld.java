@@ -12,6 +12,5 @@ public class HelloWorld {
     public String helloWorld(@PathVariable("name") String name) {
         return "Hello World " + name;
     }
-
     
 }
